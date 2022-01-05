@@ -1,17 +1,17 @@
 === Roza ===
 
-Contributors: ashathemes
+Contributors: amin7
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, blog
 Requires at least: 4.5
-Tested up to: 5.7
+Tested up to: 5.8.2
 Requires PHP: 5.6
-Stable tag: 1.0.5
+Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Roza Theme is wordpress blog theme for personal use. Fully responsive design displays beautifully across desktop, mobile, and all devices. Easy installation allows you to start post blogs immediately after the activation. This Theme builds with the world's most popular responsive CSS framework Bootstrap 4.5, Font-Awesome, HTML5, CSS3, jQuery and so many modern technologies. Easy installation allows you to start post blogs immediately after the activation. Looking for a Blog theme? Look no further! Browse the demos to see that it's the only theme you will ever need. See Demo: http://ashathemes.com/roza/
+Roza Theme is wordpress blog theme for personal use. Fully responsive design displays beautifully across desktop, mobile, and all devices. Easy installation allows you to start post blogs immediately after the activation. This Theme builds with the world's most popular responsive CSS framework Bootstrap 4.5, Font-Awesome, HTML5, CSS3, jQuery and so many modern technologies. Easy installation allows you to start post blogs immediately after the activation. Looking for a Blog theme? Look no further! Browse the demos to see that it's the only theme you will ever need.
 
 == Installation ==
 
@@ -23,23 +23,11 @@ Roza Theme is wordpress blog theme for personal use. Fully responsive design dis
 
 = 1.0.0 =
 * Initial release
-= 1.0.1 =
-* Fixed some issue
-= 1.0.2 =
-* add font-awesome Unminified files
-* add font-awesome license
-* add blog image screenshot license
-= 1.0.3 =
-* Upgrade Link Added in customizer
-* Welcome page added
-= 1.0.4 =
-* Theme uri added
-= 1.0.5 =
-* Nav links Fixed
+
 
 == Copyright ==
 
-Roza WordPress Theme, Copyright 2021 ashathemes
+Roza WordPress Theme, Copyright 2022
 Roza is distributed under the terms of the GNU GPL
 
 == Images Screenshot ==
