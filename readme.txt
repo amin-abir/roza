@@ -3,7 +3,11 @@
 Contributors: amin7
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, blog
 Requires at least: 4.5
+<<<<<<< HEAD
 Tested up to: 5.8
+=======
+Tested up to: 5.8.2
+>>>>>>> b5b65d6244b94347e597423fdbeaa6946c16b81e
 Requires PHP: 5.6
 Stable tag: 1.0.0
 License: GNU General Public License v2 or later
@@ -11,7 +15,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Roza Theme is wordpress blog theme for personal use. Fully responsive design displays beautifully across desktop, mobile, and all devices. Easy installation allows you to start post blogs immediately after the activation. This Theme builds with the world's most popular responsive CSS framework Bootstrap 4.5, Font-Awesome, HTML5, CSS3, jQuery and so many modern technologies. Easy installation allows you to start post blogs immediately after the activation. Looking for a Blog theme? Look no further! Browse the demos to see that it's the only theme you will ever need. See Demo: http://ashathemes.com/roza/
+Roza Theme is wordpress blog theme for personal use. Fully responsive design displays beautifully across desktop, mobile, and all devices. Easy installation allows you to start post blogs immediately after the activation. This Theme builds with the world's most popular responsive CSS framework Bootstrap 4.5, Font-Awesome, HTML5, CSS3, jQuery and so many modern technologies. Easy installation allows you to start post blogs immediately after the activation. Looking for a Blog theme? Look no further! Browse the demos to see that it's the only theme you will ever need.
 
 == Installation ==
 
