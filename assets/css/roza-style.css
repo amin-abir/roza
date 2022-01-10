@@ -671,7 +671,7 @@ article.post:last-child{
   color: #E57F84;
 }
 .entry-title {
-  font-size: 20px;
+  font-size: 32px;
   text-transform: uppercase;
   line-height: 26px;
 }
@@ -733,10 +733,7 @@ article.post:last-child{
   margin-right: 0px;
 }
 a.button {
-  color: #fff;
-  background-color: #E57F84;
-  border: 1px solid #E57F84;
-  border-radius: 50%;
+  color: #000;
   padding: 5px 10px;
   font-size: 15px;
   transition: 0.5s;
