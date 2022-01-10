@@ -94,14 +94,14 @@
 }
 a:not([href]):hover {
 	color: #252525;
-	background: #ddd;
+	background: #faf9f7;
 }
 .wp-block-button__link:active, 
 .wp-block-button__link:focus, 
 .wp-block-button__link:hover, 
 .wp-block-button__link:visited {
 	color: #252525;
-	background: #ddd;
+	background: #faf9f7;
 }
 . .entry-content .alignfull {
 	margin-left: -webkit-calc(-50vw + 49%);
@@ -240,11 +240,11 @@ hr.wp-block-separator{
 	margin-top: 25px;
 }
 .wp-block-search .wp-block-search__input {
-	border: 1px solid #ddd;
+	border: 1px solid #faf9f7;
 	padding: 5px 20px;
 }
 .wp-block-search .wp-block-search__button {
-	border: 1px solid #ddd;
+	border: 1px solid #faf9f7;
 	background: transparent;
 }
 

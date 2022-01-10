@@ -13,17 +13,8 @@ if(is_active_sidebar('sidebar-1')){
 }
 get_header();
 ?>
-<!-- <section class="breadcrumbs-area">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12">
-				<h2><?php  the_title(); ?></h2>
-			</div>
-		</div>
-	</div>
-</section> -->
 
-<section class="single-area <?php if( ! is_active_sidebar('sidebar-1')): ?>block-content-css<?php endif; ?>" id="content">
+<section class="roza-page-top single-area <?php if( ! is_active_sidebar('sidebar-1')): ?>block-content-css<?php endif; ?>" id="content">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-<?php echo esc_attr($roza_column); ?>">
