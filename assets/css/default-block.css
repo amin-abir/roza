@@ -103,7 +103,7 @@ a:not([href]):hover {
 	color: #252525;
 	background: #ddd;
 }
-.block-content-css .entry-content .alignfull {
+. .entry-content .alignfull {
 	margin-left: -webkit-calc(-50vw + 49%);
 	margin-left: calc(-50vw + 49%);
 	margin-right: -webkit-calc(-50vw + 50%);

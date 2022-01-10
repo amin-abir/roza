@@ -2,7 +2,7 @@
   Roza Theme css
 */ 
 
-/* Global Css */
+/* Global CSS */
 .screen-reader-text {
   visibility: visible;
 }
@@ -185,6 +185,17 @@
 .bypostauthor {
   display: block;
 }
+.roza-author{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #E57F84;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 4px;
+  font-size: 13px;
+}
+  
+
 .infinite-scroll .posts-navigation,
 .infinite-scroll.neverending .site-footer {
   display: none;
@@ -268,17 +279,16 @@ body {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: 1px;
-  color:#252525;
-  background:#F8F9FA;
-  font-family: Roboto, sans-serif;
+  color:#878787;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
 
 h1,h2,h3,h4,h5,h6 {
   text-transform: capitalize;
   margin:0 0 10px;
-  font-family: Roboto, sans-serif;
-  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 p {
   margin:0 0 5px;
@@ -290,9 +300,8 @@ img{
   height: auto;
 }
 a {
-  text-decoration: underline;
   transition: all 0.5s ease;
-  color: #7086a1;
+  color: #2F5061;
 }
 a:hover {
   color: #252525;
@@ -342,7 +351,7 @@ header.roza-header-img .container {
   padding-top: 16px;
 }
 .site-title a {
-	color: #7086a1;
+	color: #2F5061;
 	text-decoration: none;
 	font-size: 25px;
 	font-weight: 700;
@@ -380,7 +389,7 @@ header.roza-header-img .container {
 .mainmenu li:hover a,
 .mainmenu li.active a {
   transition: 0.5s;
-  color: #FFB81F;
+  color: #E57F84;
 }
 ul.children {
   padding-left: 25px;
@@ -610,9 +619,6 @@ ul#primary-menu li.hover ul {
 }
 article.post{
   margin-bottom: 30px;
-  background-color: #fff;
-  border-radius: 5px;
-  border: 1px solid #e1e8ed;
 }
 article.page{
   margin-bottom: 30px;
@@ -621,7 +627,7 @@ article.page{
   padding: 30px;
 }
 .post-content{
-  padding: 30px;
+  padding: 20px;
 }
 .error-page{
   padding: 62px 0;
@@ -638,11 +644,15 @@ article.post:last-child{
   margin-bottom: 10px;
 }
 .entry-meta.button {
-  border: 1px solid #FFB81F;
-  background-color: #FFB81F;
+  color:#E57F84;
   padding: 5px 10px;
   transition: 0.5s;
   display: inline-block;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 .entry-meta.button:hover{
   background-color: #FFF;
@@ -650,14 +660,14 @@ article.post:last-child{
 }
 .entry-meta.button a{
   text-decoration: none;
-  color: #fff;
+  color: #E57F84;
 }
 .entry-meta.button a:hover{
-  color: #FFB81F;
+  color: #E57F84;
   text-decoration: none;
 }
 .entry-meta.button:hover a{
-  color: #FFB81F;
+  color: #E57F84;
 }
 .entry-title {
   font-size: 20px;
@@ -667,42 +677,62 @@ article.post:last-child{
 .entry-title i, 
 .entry-footer span i, 
 .entry-meta i {
-  color: #FFB81F;
+  color: #E57F84;
   margin-right: 5px;
 }
 .entry-title a,
 .entry-footer span a,
 .entry-meta a{
-  color: #7086a1;
+  color: #2F5061;
   text-decoration: none;
 }
 .entry-title a:hover ,
 .entry-footer span a:hover,
 .entry-meta a:hover{
-  color: #FFB81F;
-  text-decoration: underline;
+  color: #E57F84;
+}
+
+.roza-blog-header{
+  text-align: center;
+  padding-top: 100px;
+}
+
+.roza-blog-header h1{
+  font-size:36px;
+  text-transform: capitalize;
+  font-family: 500;
+  color: #2F5061;
 }
 .page .entry-content p {
-  border-bottom: 0px solid #ddd;
+  border-bottom: 0px solid #efe8e4;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
 .entry-footer{
-  border-top: 1px solid #ddd;
-  padding-top: 15px;
-  margin-top: 15px;
+  border-bottom: 1px solid #efe8e4;
+  padding-bottom: 35px;
+  margin-top: 35px;
 }
 .entry-footer span,
 .entry-meta span{
   margin-right: 15px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.cat-links, .tags-links{
+  border:1px solid #E57F84;
+  padding:2px 12px;
 }
 .entry-footer span.author {
   margin-right: 0px;
 }
 a.button {
   color: #fff;
-  background-color: #FFB81F;
-  border: 1px solid #FFB81F;
+  background-color: #E57F84;
+  border: 1px solid #E57F84;
   border-radius: 50%;
   padding: 5px 10px;
   font-size: 15px;
@@ -710,8 +740,8 @@ a.button {
 }
 a.button:hover{
   background-color: #fff;
-  border: 1px solid #FFB81F;
-  color: #FFB81F;
+  border: 1px solid #E57F84;
+  color: #E57F84;
   transition: 0.5s;
 }
 a.button.error{
@@ -736,11 +766,9 @@ p.comment-notes {
 }
 .nav-links a{
   display: inline-block;
-  color: #7086a1;
-  background-color: #fff;
-  border-radius: 5px;
+  color: #2F5061;
   padding: 5px 15px;
-  font-weight: 700;
+  font-weight: 400;
   text-transform: uppercase;
   transition: 0.5s;
   text-decoration: none;
@@ -758,10 +786,10 @@ p.comment-notes {
 }
 .nav-links a:hover,
 .page-links a:hover{
-  color: #fff;
-  transition: 0.5s;
-  border-color: #FFB81F;
-  background-color: #FFB81F;
+  color: #E57F84;
+  transition: all .2s ease-in-out;
+  border: 1px solid #E57F84;
+
 }
 .search-results article.page .entry-summary {
   display: none;
@@ -863,7 +891,7 @@ p.comment-notes {
 }
 .comment-reply-link {
   display: inline-block;
-  color: #7086a1;
+  color: #2F5061;
   margin-top: 10px;
   transition: 0.5s;
   text-transform: uppercase;
@@ -938,7 +966,7 @@ p.comment-notes {
 .comment-form input[type="url"]:focus,
 .comment-form textarea:hover,
 .comment-form textarea:focus{
-  border: 1px solid #FFB81F;
+  border: 1px solid #E57F84;
 }
 .comment-form input[type="submit"]{
   height: 44px;
@@ -946,7 +974,7 @@ p.comment-notes {
   border: 0px solid;
   color: #fff;
   transition: 0.5s;
-  background: #7086a1;
+  background: #2F5061;
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 0px;
@@ -973,8 +1001,8 @@ p.comment-notes {
   margin-left: -6px;
 }
 .post-password-form input[type="submit"]:hover{
-  background: #FFB81F;
-  border: 1px solid #FFB81F;
+  background: #E57F84;
+  border: 1px solid #E57F84;
   transition: 0.5s;
 }
 .page-content .search-form input[type="search"]{

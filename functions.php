@@ -146,7 +146,7 @@ function roza_fonts_url() {
 	$fonts_url = '';
 
 	$font_families = array();
-	$font_families[] = 'Roboto:300,300i,400,400i,500,700';
+	$font_families[] = 'Montserrat:100,200i,300,500,700';
 	$query_args = array(
 		'family' => urlencode( implode( '|', $font_families ) ),
 		'subset' => urlencode( 'latin,latin-ext' ),

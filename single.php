@@ -13,7 +13,7 @@ if(is_active_sidebar('sidebar-1')){
 }
 get_header();
 ?>
-<section class="breadcrumbs-area">
+<!-- <section class="breadcrumbs-area">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -21,7 +21,7 @@ get_header();
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="single-area <?php if( ! is_active_sidebar('sidebar-1')): ?>block-content-css<?php endif; ?>" id="content">
 	<div class="container">
