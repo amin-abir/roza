@@ -3,11 +3,6 @@
 Contributors: amin7
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, blog
 Requires at least: 4.5
-<<<<<<< HEAD
-Tested up to: 5.8
-=======
-Tested up to: 5.8.2
->>>>>>> b5b65d6244b94347e597423fdbeaa6946c16b81e
 Requires PHP: 5.6
 Stable tag: 1.0.0
 License: GNU General Public License v2 or later
@@ -38,10 +33,10 @@ Roza is distributed under the terms of the GNU GPL
 * Theme Screenshot image , self created
 License: CC0 1.0 Universal (CC0 1.0)
 
-* Image for theme screenshot, Copyright Pxhere
+* Image for theme screenshot, pexels.com
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://pxhere.com/en/license
-Source: https://pxhere.com/en/photo/14349
+Source: https://www.pexels.com/photo/plate-cold-creative-books-6707626/
 
 
 == Credits ==

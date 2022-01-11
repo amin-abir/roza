@@ -165,6 +165,29 @@
 .widget.widget_rss .rss-date {
     font-size: 80%;
 }
+	/* About me widget */
+
+  .about-widget{
+    background-color: #faf9f7;
+    padding:20px;
+  }
+
+
+.about-me-content{
+  margin-top: 10px;
+  color: #2F5061;
+  font-family: 'Montserrat', sans-serif;
+}
+ .about-me-name{
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #E57F84;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
 .sticky {
   display: block;
 }
@@ -733,10 +756,11 @@ article.post:last-child{
   margin-right: 0px;
 }
 a.button {
-  color: #000;
-  padding: 5px 10px;
+  padding: 1px 15px;
   font-size: 15px;
   transition: 0.5s;
+  border: 1px solid #E57F84;
+  color: #E57F84;
 }
 a.button:hover{
   background-color: #fff;
