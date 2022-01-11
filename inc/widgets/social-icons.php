@@ -113,7 +113,7 @@ class roza_social_Widget extends WP_Widget {
 		}
 		?>
 
-		<div class="social-link">
+		<div class="roza-social-link">
 			<ul class="list-inline">
 				<?php $facebook_link = isset($instance['facebook']) ? $instance['facebook'] : '';
 				if ( $facebook_link ) { ?>

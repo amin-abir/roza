@@ -112,7 +112,7 @@
 .widget h2 {
   font-size: 20px;
   text-transform: uppercase;
-  color: #424242;
+  color: #2F5061;
 }
 .widget ul {
   margin: 0;
@@ -187,6 +187,42 @@
   font-weight: 300;
   letter-spacing: 2px;
 }
+
+/* Social Icons */
+
+.list-inline li {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+.widget .roza-social-link{
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+.widget .roza-social-link ul{
+  padding-left: 0;
+}
+
+.widget .roza-social-link ul li{
+  padding: 0;
+  border: 0;
+}
+
+.widget .roza-social-link ul li a{
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  margin: 3px 1px;
+  line-height: 36px;
+  color: #c2c2c2;
+}
+
+.widget .roza-social-link ul li a:hover{
+  color: #fff;
+  background-color: #6fb98f;
+  border-color: #6fb98f;
+}
+
 
 .sticky {
   display: block;
