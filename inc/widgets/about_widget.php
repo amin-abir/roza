@@ -24,7 +24,7 @@ class roza_about_widget extends WP_Widget {
 			'width'  => 250,
 			'height' => 350
 		);
-		parent::__construct( 'roza_about_widget', esc_html__( 'roza About Author', 'roza' ), $widget_options, $control_options );
+		parent::__construct( 'roza_about_widget', esc_html__( 'Roza About Author', 'roza' ), $widget_options, $control_options );
 	}
 
 	/**

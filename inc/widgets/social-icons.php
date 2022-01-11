@@ -10,7 +10,7 @@ class roza_social_Widget extends WP_Widget {
 	public function __construct() {
 		parent::__construct(
 			'roza_social_button', // Base ID
-			__( 'roza Social Icons', 'roza' ), // Name
+			__( 'Roza Social Icons', 'roza' ), // Name
 			array( 'description' => __( 'Displaying social icons', 'roza' ), ) // Args
 		);
 	}
