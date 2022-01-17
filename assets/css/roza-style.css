@@ -190,7 +190,7 @@
 
 /* Social Icons */
 
-.list-inline li {
+/* .list-inline li {
   padding-right: 4px;
   padding-left: 4px;
 }
@@ -222,6 +222,22 @@
   background-color: #6fb98f;
   border-color: #6fb98f;
 }
+
+.btn-social {
+  display: inline-block;
+  border: 1px solid #ddd;
+  margin: 4px;
+  width: 35px;
+  height: 35px;
+  color: #333;
+  line-height: 20px;
+  border-radius: 50px;
+}
+
+.btn-social:hover{
+color: #fff;
+background-color: #68c3a3;
+} */
 
 
 .sticky {
