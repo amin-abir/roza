@@ -190,7 +190,7 @@
 
 /* Social Icons */
 
-/* .list-inline li {
+.list-inline li {
   padding-right: 4px;
   padding-left: 4px;
 }
@@ -201,18 +201,18 @@
 
 .widget .roza-social-link ul{
   padding-left: 0;
+  display: inline-flex;
 }
 
 .widget .roza-social-link ul li{
-  padding: 0;
+  padding: 0 6px;
   border: 0;
 }
 
 .widget .roza-social-link ul li a{
   font-size: 16px;
-  display: inline-block;
   text-align: center;
-  margin: 3px 1px;
+  margin: 3px 6px;
   line-height: 36px;
   color: #c2c2c2;
 }
@@ -237,7 +237,7 @@
 .btn-social:hover{
 color: #fff;
 background-color: #68c3a3;
-} */
+} 
 
 
 .sticky {
