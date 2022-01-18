@@ -108,6 +108,7 @@
 }
 .widget a:hover {
   color: #878787;
+  text-decoration: none;
 }
 .widget h2 {
   font-size: 20px;
@@ -210,17 +211,17 @@
 }
 
 .widget .roza-social-link ul li a{
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
   margin: 3px 6px;
   line-height: 36px;
   color: #c2c2c2;
 }
 
 .widget .roza-social-link ul li a:hover{
-  color: #fff;
-  background-color: #6fb98f;
-  border-color: #6fb98f;
+  color: #E57F84;
 }
 
 .btn-social {
@@ -266,9 +267,9 @@ background-color: #68c3a3;
   text-transform: uppercase;
   color: #E57F84;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 4px;
-  font-size: 13px;
+  font-size: 12px;
 }
   
 
@@ -737,6 +738,8 @@ article.post:last-child{
   text-decoration: none;
   color: #E57F84;
   letter-spacing: 3px;
+  font-size: 12px;
+  font-weight: 400;
 }
 .entry-meta.button a:hover{
   color: #E57F84;
