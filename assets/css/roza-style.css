@@ -780,9 +780,10 @@ article.post:last-child{
 
 .roza-blog-header h1{
   font-size:36px;
-  text-transform: capitalize;
-  font-family: 500;
+  text-transform: uppercase;
+  font-weight: 500;
   color: #2F5061;
+  line-height: 1;
 }
 .page .entry-content p {
   border-bottom: 0px solid #efe8e4;
@@ -926,8 +927,12 @@ p.comment-notes {
   margin-bottom: 20px;
 }
 .comment-meta a {
-  color: #333;
+  color: #2F5061;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
 }
+
 .bypostauthor {
   display: block;
 }
