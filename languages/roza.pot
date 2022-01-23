@@ -37,7 +37,7 @@ msgid "Add widgets here."
 msgstr ""
 
 #. Author of the theme
-msgid "ashathemes"
+msgid "amin7"
 msgstr ""
 
 #: 404.php:27
@@ -74,11 +74,11 @@ msgid "Edit <span class=\"screen-reader-text\">%s</span>"
 msgstr ""
 
 #. URI of the theme
-msgid "https://github.com/ashathemes/roza"
+msgid "http://www.roza.blogwc.com/"
 msgstr ""
 
 #. Author URI of the theme
-msgid "https://profiles.wordpress.org/ashathemes"
+msgid "https://profiles.wordpress.org/amin7"
 msgstr ""
 
 #: inc/footer/footer-1.php:13
@@ -109,7 +109,7 @@ msgstr ""
 
 #. Description of the theme
 msgid ""
-"Roza Theme is wordpress blog theme for personal use. Fully responsive "
+"Roza Theme is  a clean and simple WordPress blog theme. Fully responsive "
 "design displays beautifully across desktop, mobile, and all devices. Easy "
 "installation allows you to start post blogs immediately after the activation."
 msgstr ""

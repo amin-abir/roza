@@ -126,8 +126,8 @@ class roza_about_widget extends WP_Widget {
 			<label
 				for="<?php echo esc_attr( $this->get_field_id( 'description' ) ); ?>"><?php esc_html_e( 'About me text:', 'roza' ) ?></label>
 			<textarea id="<?php echo esc_attr( $this->get_field_id( 'description' ) ); ?>"
-			          name="<?php echo esc_attr( $this->get_field_name( 'description' ) ); ?>" style="width:95%;"
-			          rows="6"><?php echo esc_attr( $instance['description'] ); ?></textarea>
+			          name="<?php echo esc_attr( $this->get_field_name( 'description' ) ); ?>" value = "<?php echo esc_attr( $instance['description'] ); ?>" style="width:95%;"
+			          rows="6"></textarea>
 		</p>
 
 
