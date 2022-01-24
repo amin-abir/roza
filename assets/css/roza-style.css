@@ -128,11 +128,14 @@
   padding-left: 5px;
 }
 .widget a {
-  color: #E57F84;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 14px;
-  font-weight:300px;
+  font-weight:400;
+  color: #2F5061;
+}
+.widget a:hover {
+  color: #E57F84;
 }
 .widget table {
   width: 100%;
