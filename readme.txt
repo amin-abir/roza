@@ -35,8 +35,9 @@ License: CC0 1.0 Universal (CC0 1.0)
 
 * Image for theme screenshot, pexels.com
 License: CC0 1.0 Universal (CC0 1.0)
-License URL: https://pxhere.com/en/license
+License URL: https://www.pexels.com/license/
 Source: https://www.pexels.com/photo/plate-cold-creative-books-6707626/
+Author Image: https://images.pexels.com/photos/786858/pexels-photo-786858.jpeg
 
 
 == Credits ==
