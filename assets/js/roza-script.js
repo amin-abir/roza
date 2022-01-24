@@ -1,5 +1,6 @@
 (function ($) {
     "use strict";
+
     $.fn.rozaAccessibleDropDown = function () {
 		var el = $(this);
 
