@@ -445,12 +445,13 @@ header.roza-header-img .container {
   margin-left: 5px;
 }
 .mainmenu li a {
-  color: #000;
+  color: #2F5061;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  padding-top: 16px;
+  padding-top: 26px;
   padding-bottom: 18px;
   padding-right: 25px;
   position: relative;
