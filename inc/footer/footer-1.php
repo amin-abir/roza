@@ -13,7 +13,7 @@ function roza_footer_style_1(){ ?>
 					<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'roza' ) ); ?>">
 						<?php
 						/* translators: %s: CMS name, i.e. WordPress. */
-						printf( esc_html__( 'Proudly powered by %s', 'roza' ), 'WordPress' );
+						printf( esc_html__( 'Made with love by %s', 'roza' ), 'WordPress' );
 						?>
 					</a>
 				</div>
