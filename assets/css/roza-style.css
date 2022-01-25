@@ -435,6 +435,9 @@ header.roza-header-img .container {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+.site-branding img{
+  padding-top:16px;
+}
 .header-area {
   border-bottom: 1px solid #efe8e4;
 }

@@ -37,6 +37,8 @@ License: CC0 1.0 Universal (CC0 1.0)
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://www.pexels.com/license/
 Blog Page Image: https://www.pexels.com/photo/plate-cold-creative-books-6707626/
+                https://www.pexels.com/photo/green-plant-on-white-and-black-ceramic-pot-7187338/
+                https://www.pexels.com/photo/silhouette-photography-of-mountain-3367619/
                 https://www.pexels.com/photo/grayscale-photo-of-group-of-horse-with-carriage-running-on-body-of-water-802861/
 Author Image: https://images.pexels.com/photos/786858/pexels-photo-786858.jpeg
 
