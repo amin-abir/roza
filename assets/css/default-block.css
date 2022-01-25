@@ -244,12 +244,14 @@ hr.wp-block-separator{
 	margin-top: 25px;
 }
 .wp-block-search .wp-block-search__input {
-	border: 1px solid #faf9f7;
+	border: 1px solid #efe8e4;
 	padding: 5px 20px;
 }
 .wp-block-search .wp-block-search__button {
-	border: 1px solid #faf9f7;
-	background: transparent;
+	border: 1px solid #2F5061;
+	background-color: #2F5061;
+	color: #fff;
+	border-radius: 3px;
 }
 
 
