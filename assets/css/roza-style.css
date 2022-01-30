@@ -1,5 +1,5 @@
 /*
-  Roza Theme css
+  Roza Theme CSS
 */ 
 
 /* Global CSS */
@@ -91,6 +91,30 @@
   margin-right: auto;
   margin-bottom: 1.5em;
 }
+
+
+/* --- Links ---*/
+a {
+  color: #E57F84;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #E57F84;
+}
+
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+
 .widget {
   margin: 0 0 1.5em;
 }
@@ -380,7 +404,7 @@ img{
 }
 a {
   transition: all 0.5s ease;
-  color: #2F5061;
+  
 }
 a:hover {
   color: #2F5061;
@@ -389,7 +413,7 @@ a:hover {
   transition: all 0.5s ease;
 }
 a:focus {
-  color: #0073AA ;
+  color: #E57F84;
 }
 a:not([href]) {
 	color: #fff;
@@ -461,6 +485,7 @@ header.roza-header-img .container {
   display: block;
   transition: 0.5s;
 }
+
 .mainmenu li:first-child {
   margin-left: 0px;
 }
