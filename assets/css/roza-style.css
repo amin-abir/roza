@@ -114,7 +114,11 @@ a:active {
   outline: 0;
 }
 
-
+.wp-block-column a {
+  font-style: italic;
+  font-weight: 400;
+  text-decoration: underline;
+}
 .widget {
   margin: 0 0 1.5em;
 }
@@ -486,6 +490,34 @@ header.roza-header-img .container {
   transition: 0.5s;
 }
 
+
+/*--------------------------------------------------------------
+ Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+Keyboard Navigation
+--------------------------------------------------------------*/
+a {
+	color: #E57F84;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover, a:focus, a:active {
+	color: midnightblue;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+
 .mainmenu li:first-child {
   margin-left: 0px;
 }
@@ -617,17 +649,17 @@ ul.children {
   color: #000;
 }
 .slicknav_nav a:focus{
-  color: #0073AA;
+  color: #E57F84;
 }
 .slicknav_nav .slicknav_row:hover,
 .slicknav_nav a:hover {
-  background: #333333;
+  background: #2F5061;
   color: #fff;
   text-decoration: none;
   border-radius: 0;
 }
 .slicknav_nav li.active a{
-  background: #E74C3C;
+  background: #E57F84;
   color: #fff;
 }
 .slicknav_nav .slicknav_row:hover a {
