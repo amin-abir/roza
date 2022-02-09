@@ -12,6 +12,11 @@
 ?>
 <?php do_action( 'roza_footer_style' ); ?>
 </div><!-- #page -->
+<div class="scroll-up">
+        <a href="#"><i class="fa fa-angle-up"></i></a>
+</div>
+<!-- Scroll to top -->
 <?php wp_footer(); ?>
+
 </body>
 </html>
