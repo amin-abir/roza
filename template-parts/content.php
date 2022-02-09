@@ -52,6 +52,17 @@
 						wp_kses_post( get_the_title() )
 					)
 				);
+				?>
+                         
+						  <div class="roza-social-share">
+						  <div class="roza-share-link"> Share:
+                                <a target="_blank" href="<?php echo roza_facebook_share_url() ;?>" class="facebook"><i class="fa fa-facebook"></i></a>
+                                <a target="_blank" href="<?php echo roza_twitter_share_url() ;?>" class="twitter"><i class="fa fa-twitter"></i></a>
+								<a target="_blank" href="<?php echo roza_linkedin_share_url() ;?>" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                               
+                            </div>
+							 </div>
+				<?php 
 			}else{
 				the_excerpt();
 			}
@@ -62,8 +73,9 @@
 				)
 			);
 			?>
+			
 		</div><!-- .entry-content -->
-
+		
 		<footer class="entry-footer">
 			<?php roza_entry_footer(); 
 			if(! is_single( )){

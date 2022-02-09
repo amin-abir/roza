@@ -92,6 +92,39 @@
   margin-bottom: 1.5em;
 }
 
+/* === Preloader === */
+
+#st-preloader {
+  background: #FFFCF5;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100000;
+}
+
+#pre-status,
+.preload-placeholder {
+  background-image: url(assets/images/preloader.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50px;
+  left: 50%;
+  margin: -25px 0 0 -25px;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+}
+
+.preload-placeholder {
+  background: none;
+  left: 0;
+  margin: 0;
+  text-align: center;
+  top: 65%;
+}
+
 
 /* --- Links ---*/
 a {
@@ -382,6 +415,47 @@ object {
 .wp-block-quote p{
   margin-left: 15px;
 }
+
+/* Social Share */
+
+.roza-share-link{
+  font-size:13px;
+  font-family: Montserrat, sans-serif;
+  text-transform:uppercase;
+  font-weight:500;
+  color: #2F5061;
+  
+}
+
+.roza-social-share
+{
+    display: block; 
+    margin: 1rem 0;
+    text-align: right
+}
+.roza-social-share a
+{   font-size:14px;
+    line-height: 35px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    margin-right: .1rem; 
+    text-align: center;
+}
+.roza-social-share .facebook
+{
+    color: #4267B2;
+}
+.roza-social-share .twitter
+{
+    color: #00abed;
+}
+
+.roza-social-share .linkedin
+{
+    color: #2867B2;
+}
+
 /* Default CSS */
 body {
   font-size: 15px;
@@ -1169,6 +1243,35 @@ p.comment-notes {
   margin-left: -6px;
 }
 
+
+/* === Scroll to top === */
+
+.scroll-up {
+  position: fixed;
+  display: none;
+  z-index: 999;
+  bottom: 1.8em;
+  right: 1.8em;
+}
+
+.scroll-up a {
+  background-color: #E57F84;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 15px;
+  line-height: 38px;
+  opacity: 0.7;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+  background-color: #E57F84;
+  color: #fff;
+  opacity: 1;
+}
 
 /* Search CSS */
 .search-form input[type="search"] {

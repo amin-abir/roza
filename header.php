@@ -20,6 +20,11 @@
 </head>
 
 <body <?php body_class(); ?>>
+<div id="st-preloader">
+        <div id="pre-status">
+            <div class="preload-placeholder"></div>
+        </div>
+    </div>
 <?php
 	if ( function_exists( 'wp_body_open' ) ) {
 	    wp_body_open();

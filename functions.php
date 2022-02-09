@@ -184,6 +184,20 @@ add_action( 'wp_enqueue_scripts', 'roza_scripts' );
 */
 add_editor_style( array(roza_fonts_url() ) );
 
+// Social Share 
+
+function roza_facebook_share_url(){
+    return 'https://www.facebook.com/sharer/sharer.php?u='.get_the_permalink();
+}
+
+function roza_linkedin_share_url(){
+    return 'https://www.linkedin.com/sharing/share-offsite/?url='.get_the_permalink();
+}
+
+function roza_twitter_share_url(){
+    return 'https://twitter.com/intent/tweet?url='.get_the_permalink().'&text='.get_the_excerpt();
+}
+
 /**
  * Implement the Custom Header feature.
  */
